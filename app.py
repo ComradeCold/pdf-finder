@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template
 import os
 # Using the updated package import as requested
-from duckduckgo_search import DDGS
+from ddgs import DDGS
 
 app = Flask(__name__)
 
