@@ -1,1 +1,2 @@
 # pdf-finder
+THIS IS EDUCATIONAL TOOL
