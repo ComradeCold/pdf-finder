@@ -1,4 +1,3 @@
-// MODE TOGGLE - This keeps your style working
 const body = document.getElementById("app-body");
 const toggle = document.getElementById("mode-toggle-checkbox");
 const modeKey = "pdfFinderMode";
