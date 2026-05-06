@@ -1,6 +1,5 @@
 from flask import Flask, request, render_template
 import os
-# Using the updated package import as requested
 from ddgs import DDGS
 
 app = Flask(__name__)
@@ -30,7 +29,6 @@ def home():
 
     if request.method == "POST":
         try:
-            # We now only care about the text query
             query = request.form.get("query", "").strip()
             if query:
                 result = duckduckgo_pdf_search(query)
